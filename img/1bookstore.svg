@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="112.928" height="29" viewBox="0 -8.769 851 218.538">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        font-size: 8.29113px;
+      }
+
+      .cls-2, .cls-7 {
+        fill: #ef7f1b;
+      }
+
+      .cls-2 {
+        font-family: "Droid Serif";
+      }
+
+      .cls-3 {
+        fill: #ef7c16;
+      }
+
+      .cls-3, .cls-4, .cls-5, .cls-6, .cls-8 {
+        fill-rule: evenodd;
+      }
+
+      .cls-4 {
+        fill: #f5b075;
+      }
+
+      .cls-5 {
+        fill: #fbd5a6;
+      }
+
+      .cls-6 {
+        fill: #f5ddd1;
+      }
+
+      .cls-8 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <text transform="translate(164 200) scale(17.5 17.2)" class="cls-1"><tspan class="cls-2">Bookstore</tspan></text>
+  <path d="M0.000,17.989 L117.000,0.250 L117.000,201.000 L0.000,201.000 L0.000,17.989 Z" class="cls-3"/>
+  <path d="M0.000,17.756 L124.000,3.750 L124.000,201.000 L0.000,201.000 L0.000,17.756 Z" class="cls-4"/>
+  <path d="M0.000,17.756 L131.000,8.000 L131.000,201.000 L0.000,201.000 L0.000,17.756 Z" class="cls-5"/>
+  <path d="M-0.000,18.000 L140.000,13.250 L140.000,201.000 L-0.000,201.000 L-0.000,18.000 Z" class="cls-6"/>
+  <rect y="18" width="149" height="183" class="cls-7"/>
+  <path d="M98.000,28.000 L140.000,28.000 L140.000,201.000 L88.000,201.000 C88.000,201.000 88.000,141.804 88.000,92.667 C88.000,92.611 62.000,108.152 62.000,108.000 C62.000,66.018 61.777,65.973 62.000,66.000 C66.885,64.234 90.412,46.098 98.000,28.000 Z" class="cls-8"/>
+</svg>

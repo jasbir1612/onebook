@@ -1,0 +1,402 @@
+body{
+	padding-top: 0px;
+}
+
+.divBG1{
+	background: #EBEBEB;
+}
+
+.innerWrap{
+	max-width: 1055px;
+    margin: 0 auto;
+	overflow: auto;
+}
+
+.shelfTxt{
+	color: #4D4D4D;
+	margin: 21px 0;
+	letter-spacing: 1px;
+}
+
+.shelfTxt>a>.glyphicon{
+	font-size: 18px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.shelfTxt>a>span{
+	font-size: 14px;
+	vertical-align: middle;
+	line-height: normal;
+}
+
+.searchBox1{
+	margin: 15px 0;
+    padding: 0;
+}
+
+.searchBoxInput{
+	width: 200px !important;
+	border: solid 1px #636363;
+}
+
+.searchBoxBtn{
+	border: solid 1px #636363;
+}
+
+/* .bspanel{
+	border: none;
+    box-shadow: none;
+}
+
+.panHead{
+	padding: 0;
+	background: transparent !important;
+}
+
+.panHead>.panel-title>a{
+    display: block;
+    padding: 10px 0;
+    font-weight: 700;
+}
+
+.bsdivider1{
+    width: 100%;
+    height: 1px;
+    background: #EBEBEB;
+    margin: 5px 0;
+}
+
+.bsPanelBody{
+	border: none !important;
+	padding-right: 0;
+}
+
+.bsBooksType{
+	padding: 0;
+    list-style: none;
+}
+
+.bsBooksType>li>a{
+    padding: 8px 10px;
+    display: block;
+}
+
+.bsBooksType>li>a:hover{
+	background: #f1f1f1;
+}
+
+.bsBooksType>.active>a{
+	font-weight: 700;
+	background: #f1f1f1;
+}
+
+.bswidth1{
+	width: 28%;
+}
+.bswidth2{
+	width: 72%;
+	padding: 0 10px;
+}
+
+.listHeading{
+	font-size: 16px;
+    color: #4D4D4D;
+	margin-top: 10px;
+}
+
+.bCoverUL{
+	display: flex;
+}
+
+.bCoverUL>li{
+	padding-right: 0;
+    max-width: 150px;
+	margin-top: 10px;
+}
+
+.bcvrLink{
+	border: solid 1px #CFCFCF;
+	box-shadow: 1px 1px 2px #9FA1A0;
+	height: 100%;
+}
+
+.coverFooter{
+	padding: 8px;
+}
+
+.bookTitle1{
+	font-weight: 700;
+    font-size: 13px;
+}
+
+.bookAuthor1{
+	font-size: 11px;
+    color: #8C8C8C;
+    line-height: 1.6;
+    margin-top: 2px;
+}
+
+.bookPrice1{
+	font-size: 11px;
+    color: #8C8C8C;
+    line-height: 1.6;
+}
+
+.posRel{
+	position: relative;
+}
+
+.posRel img{
+	width: 100%;
+}
+
+.qView{
+    position: absolute;
+    bottom: 10px;
+    color: #fff;
+    background: #EB7F1A;
+    padding: 4px 8px;
+    border-radius: 4px;
+    left: 0;
+    right: 0;
+    width: 91px;
+    margin: auto;
+    border: solid 1px #fff;
+	font-size: 13px;
+    font-weight: 700;
+	visibility: hidden;
+	opacity: 0;
+	z-index: 9;
+	cursor: pointer;
+}
+
+.posRel:after{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	background: rgba(0,0,0,0.4);
+	visibility: hidden;
+	opacity: 0;
+	transition: all 0.5s ease;
+}
+
+.qView:hover, .qView:focus{
+	color: #fff;
+}
+
+.posRel:hover>.qView, .posRel:hover:after{
+	visibility: visible;
+	opacity: 1;
+}
+
+.modalWidth{
+	width: 700px;
+}
+
+.modHead1{
+	padding-bottom: 8px;
+	border-bottom: none;
+}
+
+.modHead1 .modal-title{
+	font-weight: 700;
+    font-size: 16px;
+}
+
+.modBody1{
+	padding-top: 0;
+}
+
+.modBody2{
+	border-top: 1px solid #e5e5e5;
+	padding-top: 10px;
+	font-size: 0;
+}
+
+.bodyside1{
+	width: 26%;
+	float: left;
+	font-size: 14px;
+}
+
+.bodyside2R{
+	width: 74%;
+	display: inline-block;
+	font-size: 14px;
+	padding-left: 15px;
+}
+
+.aboutBook{
+	padding-bottom: 10px;
+    border-bottom: solid 1px #EBEBEB;
+    margin-bottom: 10px;
+	font-size: 19px;
+	line-height: 1.7;
+}
+
+.aboutBook:first-child{
+    margin-top:-0.35em;
+}
+
+.aboutBook:last-child{
+	margin-bottom:-0.35em;
+} */
+
+.ndEco {
+    padding: 5px 0;
+    border-bottom: solid 1px #dedede;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+	color: #4d4d4d;
+}
+
+.ndWid1a{
+	width: 62.2%;
+}
+
+.ndWid1 {
+    width: 29.4%;
+}
+
+.ndWid2 {
+    width: 70.6%;
+}
+
+.ndWid3 {
+    width: 37.8%;
+}
+
+.aboutBook:first-child {
+    margin-top: -0.35em;
+}
+
+.aboutBook {
+    padding-bottom: 10px;
+    border-bottom: solid 1px #dedede;
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 1.7;
+	color: #5b5b5b;
+}
+
+.aboutBook1 {
+	font-size: 15px;
+    line-height: 1.7;
+    color: #5b5b5b;
+	margin-top: 2px;
+}
+
+.aboutBook2>.btn-default{
+	background-color: transparent;
+}
+
+.aboutBook2>.btn-default>.fa-share-alt{
+	margin-right: 3px;
+}
+
+.aboutBook2>.btn-default>.caret{
+	margin-left: 3px;
+}
+
+.aboutBook2>.dropdown-menu{
+	right: 10px;
+	min-width: 120px;
+	background: #f7f7f7;
+}
+
+.aboutBook2>.dropdown-menu>li>a{
+	padding: 3px 8px;
+    overflow: hidden;
+    background: #f7f7f7;
+    border-bottom: solid 1px #d8d8d8;
+}
+
+.aboutBook2>.dropdown-menu>li>a>.dMenuLeft{
+	float: left;
+	font-size: 12px;
+}
+.aboutBook2>.dropdown-menu>li>a>.fa{
+	float: right;
+    font-size: 16px;
+    width: 20px;
+    padding: 2px 0;
+    line-height: 1;
+    text-align: center;
+}
+
+.ndSubs {
+    float: left;
+	width: 100%;
+    background: #ebebeb;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.ndSubs p {
+    color: #747474;
+    line-height: 1.8;
+}
+
+.ndAboutBk {
+    float: left;
+    padding: 10px 15px;
+}
+
+.ndAboutBk p {
+    color: #747474;
+    line-height: 1.8;
+}
+
+.contAbt{
+	width: 100%;
+    border-top: solid 1px #dedede;
+    margin-top: 15px;
+}
+.titSub{
+	font-size: 15px;
+    font-weight: 700;
+    border-bottom: solid 1px #a9a9a9;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    color: #4d4d4d;
+}
+
+.radiobtnTop{
+	display: block;
+	font-size: 16px;
+    font-weight: 700;
+}
+
+.radiobtnBtm{
+	font-size: 13px;
+	display: block;
+}
+
+.totSum{
+    border-top: solid 1px #a9a9a9;
+    padding-top: 6px;
+}
+
+.sumTop{
+	display: block;
+	font-size: 13px;
+}
+
+.sumBtm{
+	font-size: 16px;
+	display: block;
+	font-weight: 700;
+}
+
+.subsBtn{
+	width: 250px;
+    margin-top: 12px;
+    background: #ef7f1b;
+    border-radius: 6px;
+    font-size: 16px;
+    max-width: 100%;
+}

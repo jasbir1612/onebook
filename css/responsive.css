@@ -1,0 +1,697 @@
+@media(max-width:1090px) {
+	.resPadd8{
+		padding: 8px;
+	}
+
+	.carofooter{
+		padding: 0;
+	}
+
+	.carofooter > .col-xs-1{
+		padding: 0 8px;
+		width: 10%;
+	}
+
+	.carofooter > .col-xs-11{
+		width: 90%;
+	}
+}
+
+@media(min-width:992px) and (max-width:1090px){
+	.wrapMB{
+		max-width: 940px;
+	}
+}
+
+@media(max-width:1023px) {
+	.bswidth1, .bswidth2{
+		width: 100%;
+		margin-bottom: 22px;
+	}
+
+	.bsdivider1{
+		display: none;
+	}
+
+	.bspanel{
+		display: inline-block;
+		margin: 0 15px;
+	}
+
+	.bswidth1 .panel-group{
+		position: relative;
+		text-align: center;
+		border-bottom: solid 1px #EBEBEB;
+		
+	}
+
+	.bspanel>.panel-collapse{
+		position: absolute;
+		background: #fff;
+		z-index: 10;
+		box-shadow: 0 0 2px #555;
+		text-align: left;
+	}
+
+	.bsPanelBody{
+		padding-left: 0;
+	}
+
+	.bsBooksType>li>a{
+		padding: 8px 15px;
+	}
+
+	.bsBooksType{
+		margin: 0;
+	}
+
+	.bCoverUL>li{
+		width: 20%;
+		max-width: 100%;
+	}
+}
+
+
+@media(max-width:991px) {
+	.caroCont{
+		margin-top: 70px;
+		margin-bottom: 20px;
+	}
+
+	.resNav{
+		min-height: auto;
+	}
+
+	.leftNavFixed{
+		margin-top: 0;
+		width: 100%;
+		border-radius: 0;
+		padding: 5px;
+	}
+
+	.resPullLeft>div, .resPullRight>div{
+		display: inline-block;
+	}
+
+	.resPullLeft{
+		float: left;
+	}
+
+	.resPullRight{
+		margin-top: 0 !important;
+		float: right;
+		height: auto;
+	}
+
+	.resOuterDiv{
+		position: relative;
+		transform: none;
+		left: 0;
+	}
+
+	.resInnerDiv{
+		transform: none;
+		font-weight: 700;
+		width: auto;
+	}
+
+	.mbpadd515{
+		padding: 5px 15px;
+	}
+
+	.wrapMB{
+		margin-top: 80px;
+	}
+}
+
+@media(max-width:945px) {
+	.yWeRIconText2{
+		font-size: 14px;
+	}
+
+	.mbManage .list-inline{
+		font-size: 13px;
+	}
+}
+
+@media(max-width:900px) {
+	.caroL{
+		left: -15px;
+	}
+
+	.caroR{
+		right: -15px;
+	}
+}
+
+@media(max-width:888px) {
+	.mgTable1{
+		font-size: 13px;
+	}
+
+	.mgTable1>tbody>tr>td:last-child, .mgTable1>tbody>tr>td:nth-last-child(2), .mgTable1>tbody>tr>td:nth-last-child(3){
+		font-size: 18px;
+	}
+
+	.plusSup{
+		font-size: 15px;
+	}
+}
+
+@media(max-width:840px) {
+	.footerhead{
+		font-size: 18px;
+	}
+
+	.footerCol {
+		font-size: 14px;
+	}
+
+	.caroTitle{
+		font-size: 18px;
+	}
+
+	.caroPageCount{
+		font-size: 13px;
+	}
+
+	.resIcnWid{
+		width: 18px;
+	}
+
+	.resIcnWid2{
+		width: 25px;
+	}
+
+	.bmCaretUp{
+		font-size: 20px;
+	}
+
+	.mgTable1>tbody>tr>td:nth-last-child(2){
+		width: 42px;
+	}
+}
+
+
+@media(max-width:785px) {
+	.caroL{
+		left: -8px;
+	}
+
+	.caroR{
+		right: -8px;
+	}
+}
+
+/* Extra Small (xs) */
+@media(max-width:767px) {
+	
+	
+	.xsWid100{
+		width: 100% !important;
+	}
+	
+	.xsPaddR15{
+		padding-right: 15px !important;
+	}
+
+	.headCart{
+		padding: 11px 0;
+	}
+
+	.headLogo{
+		padding: 10px 15px;
+		height: 50px;
+	}
+
+	.headLogo img{
+		height: 100%;
+	}
+
+	.headNav{
+	    background-color: #f8f8f8;
+	}
+
+	.headNav .navbar-header .navbar-toggle{
+		margin: 16px 15px;
+		margin-left: 20px;
+		padding: 0;
+		border: none;
+	}
+
+	.headNav .navbar-header .navbar-toggle .icon-bar{
+		background-color: #F07E1B;
+		width: 30px;
+		height: 3px;
+	}
+
+	.headNav .navbar-header .navbar-toggle:hover, .headNav .navbar-header .navbar-toggle:focus{
+		background-color: transparent;
+	}
+
+	.headNav .navbar-nav > li > a{
+		padding: 10px 15px;
+	}
+
+	.headNav .navbar-nav>li>a:hover{
+		box-shadow: none;
+		background: #969696;
+		color: #fff;;
+	}
+
+	.study{
+		min-height: 300px;
+	}
+
+	.goDigital{
+		width: 380px;
+		padding: 20px;
+		right: 15%;
+	}
+
+	.solIconText, .yWeRIconText {
+		margin-top: 10px;
+	}
+
+	.solText{
+		margin-bottom: 30px;
+	}
+
+	.downWrap{
+		min-height: 280px;
+	}
+
+	.downMobScreen{
+		width: 30%;
+	}
+
+	.downText{
+		left: 30px;
+		bottom: 20px;
+	}
+
+	.downText p{
+		font-size: 25px;
+	}
+
+	.downText .btn{
+		font-size: 25px;
+		margin-top: 40px;
+	}
+
+	.solutions{
+		margin: 0 auto;
+		margin-top: 30px;
+		margin-bottom: 50px;
+	}
+
+	.shelfText {
+		margin-top: 30px;
+		margin-bottom: 40px;
+	}
+
+	.bookshelf{
+		min-height: 340px;
+	}
+
+	.xsmBottom50, .solText{
+		margin-bottom: 50px;
+	}
+
+	.yWeR{
+		margin: 0 auto;
+		margin-top: 30px;
+		margin-bottom: 0;
+		max-width: 500px;
+	}
+
+	.footer1{
+		padding-top: 50px;
+		padding-bottom: 30px;
+	}
+
+	.footerCol{
+		height: 200px;
+	}
+
+	.centerDiv{
+		width: 160px;
+	}
+
+	.faIcon{
+		font-size: 22px;
+	}
+
+	.xs_100{
+		width: 100%;
+		text-align: center;
+		line-height: 1.8;
+	}
+
+	.carofooter{
+		padding: 0 10px;
+	}
+
+	.carofooter > .col-xs-1{
+		width: 15%;
+		/* padding: 0 8px; */
+	}
+
+	.currentPage{
+		max-width: 100%;
+		height: 55px;
+	}
+
+	.carofooter > .col-xs-11{
+		width: 85%;
+		padding: 8px 0;
+	}
+
+	.caroTitle, .caroPageCount{
+		display: block;
+	}
+
+	.resEllipsis{
+		font-size: 30px;
+		vertical-align: middle;
+		line-height: 1.4;
+		cursor: pointer;
+	}
+
+	.resMenuUp{
+		right: 0;
+		left: auto;
+	}
+
+	.resMenuUp>li>a{
+		text-align: center;
+	}
+
+	.resLeftWidth{
+		width: 95%;
+	}
+
+	.resRightWidth{
+		width: 5%;
+		text-align: right;
+	}
+
+	.caroLR{
+		display: none;
+	}
+
+	.caroCont{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.modalWidth{
+		width: auto;
+	}
+
+	.bodyside2{
+		font-size: 19px;
+	}
+
+	.aboutBook2{
+		width: 100%;
+		clear: both;
+		padding-top: 15px;
+		padding-bottom: 10px;
+		font-size: 19px;
+		line-height: 1.7;
+	}
+
+	.bCoverUL{
+		display: block;
+	}
+
+	.bCoverUL>li{
+		width: auto;
+	}
+	
+	#loginModal .modal-dialog{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.xsSubWid{
+		float: none;
+		overflow: auto;
+		width: auto;
+		max-width: 400px;
+		margin: 0 auto;
+	}
+	
+	.xs_widBCoverUL>li{
+		width: 20% !important;
+	}
+}
+
+@media(max-width:700px) {
+	.xs_widBCoverUL>li{
+		width: 25% !important;
+	}
+}
+
+@media(max-width:680px) {
+	.downWrap {
+		min-height: 250px;
+	}
+
+	.downText p {
+		font-size: 22px;
+	}
+
+	.downText .btn{
+		font-size: 22px;
+		margin-top: 30px;
+	}
+
+	.bodyside2, .aboutBook2{
+		font-size: 17px;
+	}
+}
+
+@media(max-width:600px) {
+	.shelfWrap{
+		max-width: 370px;
+	}
+
+	.shelfWrap a{
+		width: 43%;
+	}
+
+	.shelfWrap img{
+		width: 100%;
+	}
+
+	.carofooter > .col-xs-1{
+		width: 20%;
+	}
+
+	.carofooter > .col-xs-11{
+		width: 80%;
+	}
+}
+
+@media(max-width:580px) {
+	.downWrap {
+		min-height: 220px;
+	}
+
+	.downText p {
+		font-size: 18px;
+	}
+
+	.downText .btn{
+		font-size: 18px;
+	}
+
+	.bodyside2{
+		font-size: 13px;
+	}
+
+	.aboutBook2{
+		font-size: 15px;
+	}
+	
+	.xs_widBCoverUL>li{
+		width: 33.3333% !important;
+	}
+}
+
+@media(max-width:550px) {
+	.ndWid1{
+		width: 100%;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	
+	.ndWid1>.img-responsive{
+		display: inline-block;
+	}
+	
+	.ndWid2{
+		width: 100%;
+	}
+	
+	/* .aboutBook{
+		font-size: 14px;
+	}
+	
+	.bodyside2R>p, .aboutBook2R{
+		font-size: 13px;
+	} */
+}
+
+
+@media(max-width:500px) {
+	.goDigital{
+		left: 5%;
+		right: 5%;
+		padding: 15px;
+		width: 90%;
+	}
+
+	.digital1{
+		font-size: 18px;
+	}
+
+	.digital2{
+		font-size: 14px;
+	}
+
+
+	.downWrap {
+		min-height: 190px;
+	}
+
+	.downText{
+		left: 20px;
+		bottom: 20px;
+	}
+
+	.downText p {
+		font-size: 15px;
+	}
+
+	.downText .btn{
+		font-size: 15px;
+		margin-top: 20px;
+	}
+
+	.bodyside2>p{
+		margin: 0 0 6px;
+	}
+}
+
+@media(max-width:450px) {
+	.shelfTxt{
+		font-size: 14px;
+		margin: 19px 0;
+	}
+
+	.searchBox1{
+		margin: 8px 0;
+	}
+
+	.searchBoxInput{
+		font-size: 12px;
+		width: 158px !important;
+	}
+
+	.searchBoxBtn{
+		padding: 6px 8px;
+	}
+	
+	.xs_widBCoverUL>li{
+		width: 50% !important;
+	}
+}
+
+@media(max-width:400px) {
+	.solutions .col-xs-4, .yWeR .col-xs-4{
+		padding: 0 10px;
+	}
+
+	.solText{
+		font-size: 23px;
+	}
+
+	.solIconText {
+		font-size: 16px;
+	}
+
+
+	.downWrap {
+		min-height: 140px;
+	}
+
+	.downMobScreen {
+		width: 100px;
+	}
+
+	.downText p {
+		font-size: 13px;
+	}
+
+	.downText .btn{
+		font-size: 13px;
+		margin-top: 5px;
+	}
+
+
+	.shelfText {
+		font-size: 23px;
+	}
+
+	.carofooter > .col-xs-1{
+		width: 25%;
+	}
+
+	.carofooter > .col-xs-11{
+		width: 75%;
+	}
+
+	.leftNavFixed{
+		font-size: 18px;
+	}
+}
+
+@media(max-width:380px) {
+	.footerhead {
+		font-size: 16px;
+	}
+
+	.footerCol {
+		font-size: 12px;
+		height: 110px !important;
+	}
+
+	.centerDiv {
+		width: 140px;
+	}
+}
+
+@media(max-width:340px) {
+
+	.downText{
+		left: 15px;
+		bottom: 10px;
+	}
+
+	.downMobScreen {
+		width: 85px;
+	}
+
+	.downText p {
+		font-size: 13px;
+		margin: 0 0 6px;
+	}
+
+	.downText .btn{
+		font-size: 13px;
+		margin-top: 5px;
+	}
+}

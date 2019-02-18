@@ -1,0 +1,408 @@
+.teamHeadSearch{
+	background: url('../img/team/team_bg.jpg') center center no-repeat; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-top: 90px;
+	padding-bottom: 90px;
+	border-top: solid 1px #fff;
+	text-align: center;
+}
+
+.teamHeadSearch h3{
+	font-weight: 700;
+}
+
+.teamHeadSearch p{
+	font-weight: 400;
+	max-width: 795px;
+	margin: 0 auto;
+	font-size: 15px;
+	line-height: 1.6;
+}
+
+
+.studyHeader{
+	font-size: 17px !important;
+	text-align: center;
+	padding-bottom: 60px;
+	background-color: #f3f3f3;
+	font-weight:normal !important;
+}
+
+.otBorder{
+	max-width: 1215px;
+	margin: 40px auto 10px auto;
+	text-align: center;
+}
+
+.otHeader{
+	padding: 0 20px;
+	display: inline-block;
+	font-size: 19px;
+	position: relative;
+	color: #333;
+	font-weight:normal !important;
+}
+
+/* .otHeader:first-child:after{
+	content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    height: 18px;
+    width: 2px;
+    background: #6a6a6a;
+    display: inline-block;
+}*/
+
+.otHeader.active{
+	color: #ef7f1b;
+	font-weight:normal !important;
+} 
+
+.otTabContent{
+	max-width: 1215px;
+	margin: 0 auto;
+}
+
+.otContent{
+    max-width: 900px;
+    margin: 0 auto;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+.flip-container {
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -o-perspective: 1000;
+  perspective: 1000;
+
+	/* border: 1px solid #ccc; */
+	margin-top: 30px;
+}
+
+	/* .flip-container:hover .flipper {
+		-webkit-transform: rotateY(180deg);
+		-moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+		transform: rotateY(180deg);
+	} */
+
+
+.flip-container, .front, .back {
+	width: 272px;
+	height: 330px;
+}
+
+.flipper {
+	-webkit-transition: 0.6s;
+	-webkit-transform-style: preserve-3d;
+
+	-moz-transition: 0.6s;
+	-moz-transform-style: preserve-3d;
+  
+  -o-transition: 0.6s;
+	-o-transform-style: preserve-3d;
+
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+.front, .back {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* .front {
+	z-index: 2;
+} */
+
+.otFrontImage{
+	border-radius: 100%;
+    height: 250px;
+    width: 250px;
+	border: solid 1px #dedede;
+}
+
+.otFrontSpan{
+	border: solid 1px #dedede;
+    display: inline-block;
+    border-radius: 100%;
+	padding: 8px;
+	background-color: #fff;
+}
+
+.otFrontName{
+    font-size: 15px;
+    font-weight: 700;
+    margin: 10px 0 5px 0;
+}
+
+.otFrontDesig{
+	position: relative;
+    font-size: 13px;
+}
+
+.back>.otFrontDesig:after{
+	content: "";
+    position: absolute;
+    bottom: -10px;
+    width: 40px;
+    border-bottom: solid 3px #ef7f1b;
+    left: 0px;
+    right: 0;
+    margin: auto;
+}
+
+
+.back {
+	color: #000;
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+
+	background: rgba(229, 225, 222, 0.5);
+	border-left: solid 1px #b7b7b7;
+    border-right: solid 1px #b7b7b7;
+	position: relative;
+	overflow: hidden;
+	padding: 5px 13px;
+}
+
+.back:before {
+	content: '';
+	background: #F3F3F3;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;
+	
+}
+
+.back:after {
+	content: '';
+	opacity: 0.1;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;
+	
+}
+
+.backRajat:after {
+	background: url('../img/team/Rajat.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.backJubin:after {
+	background: url('../img/team/Jubin.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.backSanjaya:after {
+	background: url('../img/team/Sanjaya.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.backShailendra:after {
+	background: url('../img/team/Shailendra.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.backNivedita:after {
+	background: url('../img/team/Nivedita_Divgi.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.backKuber:after {
+	background: url('../img/team/Kuber.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.backDeepak:after {
+	background: url('../img/team/Deepak.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.backMamta:after {
+	background: url('../img/team/Mamta.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.backKanchan:after {
+	background: url('../img/team/Kanchan.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.backRanjeet:after {
+	background: url('../img/team/Ranjeet.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.backVikas:after {
+	background: url('../img/team/Vikas.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+.back p {
+	font-size: 14px;
+    line-height: 1.6;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    /* border-bottom: solid 1px #aaa; */
+    padding-bottom: 6px;
+	font-weight:normal !important;
+}
+
+.backFaIco, .backFaIco:hover, .backFaIco:focus{
+	display: inline-block;
+	display:none !important;
+    background: #4867aa;
+    width: 27px;
+    height: 27px;
+    border-radius: 4px;
+    color: #fff;
+    padding: 2px 0;
+    font-size: 18px;
+	margin-right: 10px;
+}
+
+.backFaIco:hover, .backLiIco:hover {
+	transform: scale(1.2);
+}
+
+.backLiIco, .backLiIco:hover, .backLiIco:focus{
+	display: inline-block;
+	display:none !important;
+    background: #0177b5;
+    width: 27px;
+    height: 27px;
+    border-radius: 4px;
+    color: #fff;
+    padding: 2px 0;
+    font-size: 18px;
+}
+
+.otFlipCont{
+	display: inline-block;
+	width: 25%;
+	float: left;
+}
+
+
+
+
+/* --------Responsive---------- */
+
+@media(max-width:1122px) {
+	.flip-container{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.flip-container, .front, .back{
+		width: 245px;
+	}
+	
+	.otFrontImage{
+		height: 200px;
+		width: 200px;
+	}
+	
+	.back p{
+		font-size: 13px;
+	}
+}
+
+@media(max-width:1016px) {
+	.otFlipCont{
+		width: 33.3333%;
+	}
+}
+
+@media(max-width:770px) {
+	.otFlipCont{
+		width: 50%;
+	}
+}
+
+@media(max-width:520px) {
+	.otFlipCont{
+		width: 100%;
+	}
+}
+
+	
+@media(max-width:680px) {
+	.headSearch{
+		padding-top: 150px;
+		padding-bottom: 150px;
+	}
+}
+
+
+@media(max-width:450px) {
+	.headSearch{
+		padding-top: 130px;
+		padding-bottom: 130px;
+	}
+}

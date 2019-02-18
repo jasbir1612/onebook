@@ -1,0 +1,170 @@
+.logModCSS .modal-header{
+	padding: 0;
+}
+
+.logModCSS .modal-content{
+	border-radius: 0;
+	border-bottom: solid 5px #F44336;
+}
+
+.logModCSS .modal-header .close{
+	padding: 8px 15px;
+    background: #F44336;
+    opacity: 1;
+    margin: 0;
+    color: #fff;
+    text-shadow: none;
+}
+
+.logModCSS .modal-title{
+	padding: 5px 15px;
+	font-weight: 700;
+	line-height: 1.5;
+}
+
+.logModCSS .modal-dialog{
+    width: 300px;
+}
+.logModCSS .modal-footer{
+    margin: 0;
+}
+.logModCSS .modal-footer .btn{
+    font-weight: bold;
+}
+
+.logModCSS .input-group-addon{
+    color: #fff;
+    background: #EF7F1B;
+	top: 0;
+}
+
+.emailAt{
+	display: table-cell !important;
+	font-size: 16px;
+}
+
+
+.loginmodal-submit {
+  border: 0px;
+  border-radius: 0;
+  color: #fff;
+  text-shadow: 0 1px rgba(0,0,0,0.1);
+  font-size: 14px;
+  background-color: #EF7F1B;
+}
+
+.loginmodal-submit:hover {
+  border: 0px;
+  border-radius: 0;
+  text-shadow: 0 1px rgba(0,0,0,0.3);
+}
+
+.login-help{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.login-help a{
+  font-size: 13px;
+  color: #939393;
+}
+
+.login-help a:hover{
+  color: #000;
+}
+
+html {
+  overflow-y: scroll !important;
+}
+
+.modal-open {
+  padding-right: 0 !important;
+}
+
+
+.modal-backdrop
+{
+    opacity:0.8 !important;
+}
+
+.loginLogo{
+	max-width: 150px;
+}
+
+.mbottom20{
+	margin-bottom: 20px;
+}
+
+.modDivider{
+	margin: 20px auto;
+	width: 170px;
+	height: 2px;
+	background: #EBEBEB;
+}
+
+.modFB{
+	width: 40px;
+    height: 40px;
+    display: inline-block;
+	color: #3A5695;
+	border: solid 1px #3A5695;
+	border-radius: 100%;
+    font-size: 20px;
+	padding: 6px 0;
+	margin-right: 7px;
+}
+
+.modFB:hover, .modFB:focus{
+	color: #3A5695;
+}
+
+.modGP{
+	width: 40px;
+    height: 40px;
+    display: inline-block;
+	color: #E04E3F;
+	border: solid 1px #E04E3F;
+	border-radius: 100%;
+    font-size: 20px;
+	padding: 6px 0;
+	margin-left: 7px;
+}
+
+.modGP:hover, .modGP:focus{
+	color: #E04E3F;
+}
+
+.hvr-bounce-in {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.hvr-bounce-in:hover, .hvr-bounce-in:active {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+.newUser{
+	text-align: center;
+    margin-top: 15px;
+}
+
+.newUser a{
+	font-size: 13px;
+    color: #EE811A;
+}
+
+.newUser a:hover{
+    color: #B55800;
+}
+
+.fpText{
+	font-size: 13px;
+    margin-bottom: 10px;
+}

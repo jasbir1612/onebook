@@ -1,0 +1,410 @@
+/* body{
+	padding-top: 0 !important;
+} */
+.mrg_0
+{
+	margin:0;
+}
+.pnl_wrap
+{
+	background: #efefef;
+    padding: 9px 18px;
+    border-radius: 5px;
+}
+.pnl_txt
+{
+	font-size:14px;
+}
+
+.tablecont{
+	background: #e1e1e1;
+}
+
+.outerDivTable{
+	display: table;
+	width: 100%;
+	padding: 6px 15px;
+	background: #e1e1e1;
+	margin-bottom: 0;
+}
+
+.outerDivTable .navbar-brand{
+	padding: 8px 15px;
+}
+
+.innerDivCell{
+	display: table-cell;
+	vertical-align: middle;
+	width: 33.3333%;
+}
+
+.innerDivCell>.logoLink{
+	border-right: solid 1px #333;
+	padding-right: 8px;
+    margin-right: 6px;
+	font-size: 13px;
+}
+.innerDivCell>.logoLinkNoborder{
+	border-right: solid 0px #333;
+	padding-right: 8px;
+    margin-right: 6px;
+	font-size: 13px;
+}
+.toggleLogin,.toggleRegister,.toggleBookstore{
+    display: none;
+}
+
+.innerDivCell>.logoLink:last-child{
+	border-right: none;
+	padding-right: 0;
+	margin-right: 0;
+}
+
+.innerDivCell>.logoLink>a:hover, .innerDivCell>.logoLink>a:focus{
+	color: #ed801b;
+}
+
+
+.headSearch{
+	/* background-image: url('../img/homePage/bg_image.jpg');
+	background-repeat: no-repeat; */
+	
+	background: url('../img/homePage/bg_image.jpg') center center no-repeat; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-top: 95px;
+	padding-bottom: 115px;
+	border-top: solid 1px #fff;
+	border-bottom: solid 1px #fff;
+	
+	text-align: center;
+}
+
+.searchContainer{
+	width: 550px;
+	display: inline-block;
+}
+
+.headerTxt{
+	font-size: 24px;
+	/* font-weight: 700; */
+	/* margin-top: 20px; */
+    margin-bottom: 32px;
+}
+
+
+#custom-search-input{
+    padding: 3px;
+    border: solid 1px #bbbbbb;
+    box-shadow: 0px 3px 5px #bbbbbb;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+#custom-search-input input{
+    border: 0;
+    box-shadow: none;
+	height: 34px;
+	font-size: 16px;
+}
+
+#custom-search-input button{
+    margin: 2px 0 0 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: #666666;
+    padding: 0 8px 0 10px;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input button:hover{
+    border: 0;
+    box-shadow: none;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input .glyphicon-search{
+    font-size: 23px;
+}
+
+.studyHeader{
+	font-size: 22px;
+	padding: 10px 0;
+	background: #e1e1e1;
+	text-align: center;
+	font-weight: 700;
+}
+
+.studybody{
+	background: #f3f3f3;
+	text-align: center;
+	font-size: 13px;
+	padding-top: 45px;
+	padding-bottom: 40px;
+}
+
+.studyContainer{
+	width: 1016px;
+	display: inline-block;
+}
+
+.studyContwid{
+	padding: 0 38px;
+	padding-top: 10px !important;
+}
+
+.studyContainer h3{
+	font-weight: 700;
+	margin-top: 24px;
+	margin-bottom: 20px;
+}
+
+.alignMiddle{
+	vertical-align: middle;
+}
+
+.footerOuterDiv{
+	position: relative;
+	background: #353535;
+	padding: 15px 15px 20px 30px;
+}
+
+.footerLeftTxt{
+	color: #b7b7b7;
+    font-size: 13px;
+	line-height: 1.6;
+	margin-right: 7.5%;
+    float: left;
+    width: 30%;
+}
+
+.indentLogo{
+	width: 46px;
+	vertical-align: initial;
+}
+
+.footerRightTxt{
+	float: left;
+    width: 62.5%;
+}
+
+.footerCol a{
+	color: #fff;
+}
+
+.centerDiv .faIcons{
+	color: #525252;
+    font-size: 25px;
+	margin-right: 12px;
+	line-height: normal;
+	transition: all .3s ease;
+}
+
+.centerDiv .faIcons:last-child{
+	margin-right: 0;
+}
+
+.centerDiv .faIcons:hover {
+	color: #000;
+    text-shadow: 0px 1px 0px #999;
+}
+
+
+.footerWrap{
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+    text-align: right;
+    font-size: 11px;
+    color: #696969;
+}
+
+
+
+
+
+/* --------Responsive---------- */
+
+@media(max-width:1120px) {
+	.footerLeftTxt{
+		margin-right: 2%;
+	}
+	
+	.footerRightTxt {
+		width: 68%;
+	}
+}
+
+@media(max-width:1068px) {
+	.footerOuterDiv{
+		padding: 15px 30px 70px 30px
+	}
+	
+	.footerCol{
+		text-align: left;
+		padding: 0;
+	}
+	
+	.footerLeftTxt{
+		width: 100%;
+		margin: 0;
+		font-size: 14px;
+		border-bottom: solid 1px #656565;
+		padding-bottom: 20px;
+		box-shadow: 0px 1px 0px #000;
+	}
+	
+	.indentLogo{
+		width: 55px;
+	}
+	
+	.footerRightTxt {
+		width: 100%;
+		font-size: 14px;
+		margin-top: 20px;
+	}
+	
+	.footerWrap{
+	left: 0;
+	right: 0;
+	background: #222;
+	bottom: 0;
+	padding: 10px;
+	text-align: center;
+	color: #ccc;
+	border-top: solid 1px #666;
+	}
+}
+
+@media(max-width:1046px) {
+	.studyContainer{
+		width: 100%;
+	}
+
+	.studyContwid{
+		padding: 0 15px;
+	}
+}
+
+
+@media(max-width:767px) {
+	.outerDivTable{
+		padding: 6px 0;
+	}
+	
+	.modalWidth{
+		width: auto;
+	}
+	
+	#loginModal .modal-dialog, #registerModal  .modal-dialog, #forgotPassModal .modal-dialog{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.studybody{
+		padding-top: 15px;
+		padding-bottom: 10px;
+	}
+	
+	.studyContwid .media{
+		margin: 20px 0;
+	}
+	
+	.studyContwid .media-left{
+		vertical-align: middle;
+	}
+	
+	.studyContwid .media-body{
+		text-align: left;
+	}
+	
+	.studyContainer h3{
+		margin-top: 0;
+	}
+}
+	
+@media(max-width:680px) {
+	.xsMtop20{
+		margin-top: 20px;
+	}
+	
+	.footerhead{
+		margin-bottom: 0 !important;
+	}
+	
+	.footerCol{
+		width: 50%;
+		text-align: center;
+	}
+	
+	.footerRightTxt .footerCol:last-child{
+		text-align: center !important;
+	}
+	
+	.centerDiv{
+		text-align: left;
+		width: 142px;
+	}
+}
+
+/* @media(max-width:650px) {
+	.outerDivTable{
+		padding: 6px 15px;
+	}	
+	.hiddenXS{
+		display: none;
+	}
+} */
+
+@media(max-width:580px) {
+	.searchContainer{
+		width: 100%;
+	}
+}
+
+@media(max-width:450px) {
+	.headSearch{
+		padding-top: 50px;
+		padding-bottom: 85px;
+	}
+	
+	.studyContainer h3{
+		margin-top: 24px;
+	}
+	
+	.studyContwid .media-left{
+		display: block;
+		padding: 0;
+	}
+	
+	.studyContwid .media-body{
+		width: 100%;
+		display: block;
+		text-align: center;
+	}
+}
+
+@media(max-width:400px) {
+	.headerTxt{
+		font-size: 20px;
+	}
+}
+
+
+@media(max-width:360px) {
+	.xsMtop2_20{
+		margin-top: 20px;
+	}
+	
+	.centerDiv{
+		text-align: center !important;
+	}
+	
+	.footerCol{
+		width: 50%;
+		margin-top:0;
+	}
+}

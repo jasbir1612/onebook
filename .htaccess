@@ -1,0 +1,29 @@
+RewriteEngine on 
+RewriteRule ^index.html$ index.php
+RewriteRule ^features.html$ features.php
+RewriteRule ^aboutus.html$ aboutus.php
+RewriteRule ^ourteam.html$ ourteam.php
+RewriteRule ^contactus.html$ contactus.php
+RewriteRule ^feedback.html$ feedback.php
+RewriteRule ^bookshelf.html$ bookshelf.php
+RewriteRule ^mybookshelf.html$ mybookshelf.php
+RewriteRule ^subscription/(.*)/(.*)\.html subscriber_page.php?title=$1&id=$2
+RewriteRule ^modify_booknotes.html$ modify_booknotes.php
+RewriteRule ^manageBooks.html$ manageBooks.php
+RewriteRule ^manageGroups.html$ manageGroups.php
+RewriteRule ^educator.html$ educator.php
+RewriteRule ^student.html$ student.php
+RewriteRule ^termsofuse.html$ termsofuse.php
+RewriteRule ^privacypolicy.html$ privacypolicy.php
+RewriteRule ^faq.html$ faq.php
+RewriteRule ^analytics/analytics_overview.html$ analytics/analytics_overview.php
+RewriteRule ^myorders.html$ profilePage.php
+RewriteRule ^payment_agreement.html$ payment_agreement.php
+RewriteRule ^payment_terms.html$ payment_terms.php
+RewriteRule ^bank_details.html$ bank_details.php
+RewriteRule ^admin/admin_modify_booknotes.html$ admin/admin_modify_booknotes.php
+RewriteRule ^admin/add_user.html$ admin/add_user.php
+RewriteRule ^admin/modify_user.html$ admin/modify_user.php
+RewriteRule ^admin/modify_student.html$ admin/modify_student.php
+
+RewriteRule ^reader/(.*)/(.*)\.html reader.php?id=$1

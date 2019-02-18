@@ -1,0 +1,282 @@
+body{
+	padding-top: 0px;
+}
+
+.divBG1{
+	background: #EBEBEB;
+}
+
+.innerWrap{
+	max-width: 1055px;
+    margin: 0 auto;
+	overflow: auto;
+}
+
+.shelfTxt{
+	color: #4D4D4D;
+    font-size: 18px;
+    font-weight: 700;
+	margin: 23px 0;
+    line-height: 1;
+	letter-spacing: 1px;
+}
+
+.searchBox1{
+	margin: 15px 0;
+    padding: 0;
+}
+
+.searchBoxInput{
+	width: 200px !important;
+	border: solid 1px #636363;
+}
+
+.searchBoxBtn{
+	border: solid 1px #636363;
+}
+
+.bspanel{
+	border: none;
+    box-shadow: none;
+}
+
+.panHead{
+	padding: 0;
+	background: transparent !important;
+}
+
+.panHead>.panel-title>a{
+    display: block;
+    padding: 10px 0;
+    font-weight: 700;
+}
+
+.bsdivider1{
+    width: 100%;
+    height: 1px;
+    background: #EBEBEB;
+    margin: 5px 0;
+}
+
+.bsPanelBody{
+	border: none !important;
+	padding-right: 0;
+}
+
+.bsBooksType{
+	padding: 0;
+    list-style: none;
+}
+
+.bsBooksType>li>a{
+    padding: 8px 10px;
+    display: block;
+}
+
+.bsBooksType>li>a:hover{
+	background: #f1f1f1;
+}
+
+.bsBooksType>.active>a{
+	font-weight: 700;
+	background: #f1f1f1;
+}
+
+.bswidth1{
+	width: 28%;
+}
+.bswidth2{
+	width: 72%;
+	padding: 0 10px;
+}
+
+.listHeading{
+	font-size: 16px;
+    color: #4D4D4D;
+	margin-top: 10px;
+}
+
+.bCoverUL{
+	float: left;
+    margin-left: -3px;
+    margin-right: -3px;
+	width:100%;
+}
+
+.bCoverUL>li{
+	text-align: left;
+    padding: 0 3px;
+    margin-top: 10px;
+    width: 16.66666666666667%;
+    float: left;
+}
+
+.bcvrLink{
+	border: solid 1px #CFCFCF;
+	box-shadow: 1px 1px 2px #9FA1A0;
+	height: 100%;
+}
+
+.coverFooter{
+	padding: 8px;
+	height: 107px;
+}
+
+.bookTitle1{
+	font-weight: 700;
+    font-size: 13px;
+	height: 40px;
+}
+.bookTitle1>a {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+}
+.bookAuthor1{
+	font-size: 11px;
+    color: #8C8C8C;
+    line-height: 1.6;
+    margin-top: 2px;
+}
+
+.bookPrice1{
+	font-size: 11px;
+    color: #8C8C8C;
+    line-height: 1.6;
+}
+
+.posRel{
+	position: relative;
+}
+
+.posRel img{
+	width: 100%;
+}
+
+.qView{
+    position: absolute;
+    bottom: 10px;
+    color: #fff;
+    background: #EB7F1A;
+    padding: 4px 8px;
+    border-radius: 4px;
+    left: 0;
+    right: 0;
+    width: 91px;
+    margin: auto;
+    border: solid 1px #fff;
+	font-size: 13px;
+    font-weight: 700;
+	visibility: hidden;
+	opacity: 0;
+	z-index: 9;
+	cursor: pointer;
+}
+
+.posRel:after{
+	content: '';
+	position: absolute;
+	width: 100%;
+	/*height: 100%;
+	top: 0;*/
+	height:46px;
+	bottom: 0;
+	background: rgba(0,0,0,0.4);
+	visibility: hidden;
+	opacity: 0;
+	transition: all 0.5s ease;
+}
+
+.qView:hover, .qView:focus{
+	color: #fff;
+}
+
+.posRel:hover>.qView, .posRel:hover:after{
+	visibility: visible;
+	opacity: 1;
+}
+
+.modalWidth{
+	width: 700px;
+}
+
+.modHead1{
+	padding-bottom: 8px;
+	border-bottom: none;
+}
+
+.modHead1 .modal-title{
+	font-weight: 700;
+    font-size: 16px;
+}
+
+.modBody1{
+	padding-top: 0;
+}
+
+.modBody2{
+	border-top: 1px solid #e5e5e5;
+	padding-top: 10px;
+	font-size: 0;
+}
+
+.bodyside1{
+	width: 26%;
+	float: left;
+	font-size: 14px;
+}
+
+.bodyside2{
+	width: 74%;
+	display: inline-block;
+	font-size: 14px;
+	padding-left: 15px;
+}
+
+.aboutBook{
+	padding-bottom: 10px;
+    border-bottom: solid 1px #EBEBEB;
+    margin-bottom: 10px;
+	font-size: 19px;
+	line-height: 1.7;
+}
+
+.aboutBook:first-child{
+    margin-top:-0.35em;
+}
+
+.aboutBook:last-child{
+	margin-bottom:-0.35em;
+}
+
+.mgRightPart{
+	width: 100%;
+    margin-top: 30px;
+    display: block;
+    text-align: center;
+	vertical-align: middle;
+}
+
+.mgRightPart>.pagination {
+    margin: 0;
+    vertical-align: middle;
+}
+
+
+.mgRightPart>.pagination>li>a {
+    padding: 3px 10px;
+    background-color: transparent;
+    border: none;
+    color: #000;
+    font-weight: 700;
+    border-radius: 0;
+}
+
+.mgRightPart>.pagination>li>a:hover, .mgRightPart>.pagination>li>a:focus {
+    color: #F07E1E;
+}
+
+.mgRightPart>.pagination>li:first-child>a, .mgRightPart>.pagination>li:last-child>a {
+    color: #fff;
+    background: #EF7F1B;
+}

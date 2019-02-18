@@ -1,0 +1,93 @@
+.formWid1{
+	width: 800px;
+	margin: 0 auto;
+	display: table;
+	padding: 50px 0;
+}
+
+.form_inner{
+	position: relative;
+	display: table-cell;
+	padding: 0 60px;
+	width: 400px;
+}
+
+.input-group textarea{
+	resize: none;
+}
+
+.form_title{
+	margin-top: 0;
+	margin-bottom: 20px;
+    color: #666666;
+	position: relative;
+}
+
+.form_title:after {
+    content: "";
+    width: 45px;
+    height: 1px;
+    border-top: 2px solid #ef7f1b;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+}
+
+.submitBtn{
+	background: #fd9333;
+	margin-top: 10px;
+}
+
+.callUs>.fa{
+	font-size: 26px;
+    vertical-align: bottom;
+}
+
+.callUs>.control-label{
+    margin: 0;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.callUs>p{
+    margin: 10px 0 0 0;
+    font-size: 13px;
+}
+
+.ccformDiv{
+	position: absolute;
+    right: 0;
+    width: 1px;
+    top: 20px;
+    bottom: 20px;
+    content: '';
+    background: -webkit-linear-gradient(top,#fff 0%,#ef872a 10%,#ef7f1b 90%,#fff 100%);
+    background: linear-gradient(to bottom,#fff 0%,#ef872a 10%,#ef7f1b 90%,#fff 100%);
+}
+
+@media (max-width: 800px) {
+	.formWid1{
+		width: 100%;
+	}
+	.form_inner{
+		padding: 0 30px;
+		width: 50%;
+	}
+}
+
+@media (max-width: 600px) {
+	.formWid1{
+		padding: 0;
+	}
+	
+	.ccformDiv{
+		display: none;
+	}
+	
+	.form_inner{
+		width: 100%;
+		display: block;
+		padding: 30px;
+	}
+}

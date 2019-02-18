@@ -1,0 +1,205 @@
+.faqHeadSearch{
+	background: url('../img/faq_bg.jpg') center center no-repeat; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-top: 90px;
+	padding-bottom: 90px;
+	border-top: solid 1px #fff;
+	text-align: center;
+}
+
+.faqHeadSearch h3, .faqfw{
+	font-weight: 700;
+}
+
+.faqHeadSearch p{
+	max-width: 482px;
+	margin: 0 auto;
+	font-size: 15px;
+	line-height: 1.6;
+}
+
+
+.studyHeader{
+	font-size: 14px !important;
+	padding-bottom: 60px;
+	background-color: #f3f3f3;
+	font-weight:normal !important;
+	text-align: left !important;
+}
+
+.otBorder{
+	max-width: 1215px;
+	margin: 50px auto 5px auto;
+	text-align: center;
+}
+
+.otHeader{
+	padding: 0 20px;
+	display: inline-block;
+	font-size: 19px;
+	position: relative;
+	color: #333;
+}
+
+.otHeader:first-child:after{
+	content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    height: 18px;
+    width: 2px;
+    background: #6a6a6a;
+    display: inline-block;
+}
+
+.otHeader.active{
+	color: #ef7f1b;
+}
+
+.otTabContent{
+	max-width: 836px;
+	margin: 0 auto;
+}
+
+.faqest{
+	margin-top: 50px;	
+}
+
+.faqest h3{
+	position: relative;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 15px;
+	padding-bottom: 12px;
+}
+
+.faqest h3:after{
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 120px;
+	height: 2px;
+	background: #ef7f1b;
+}
+
+.faqest p{
+	line-height: 2.3;
+	margin: 0;
+	color: #5e5e5e;
+}
+
+
+
+.popover{
+	z-index: 99;
+}
+
+.popover-content .form-group {
+    margin-bottom: 10px;
+}
+
+.popover-content label {
+    margin-bottom: 0;
+}
+
+.popover-content .form-control {
+    padding: 5px 12px;
+    height: auto;
+}
+
+.groupTG {
+    display: table;
+    width: 100%;
+}
+
+.groupTGL {
+    display: table-cell;
+}
+
+.groupTGR {
+    display: table-cell;
+    text-align: right;
+}
+
+.groupTGR>label {
+    display: none;
+    font-weight: 400;
+    color: #16b916;
+}
+
+/* .popover.fade.bottom.in{
+	left: 20% !important;
+} */
+
+
+
+
+/* --------Responsive---------- */
+
+	
+@media(max-width:680px) {
+	.headSearch{
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+	
+	.faqest h3{
+		font-size: 20px;
+	}
+	
+	.faqest h3::after{
+		width: 90px;
+	}
+	
+	.otBorder{
+		margin-top: 20px;
+	}
+	
+	.faqest{
+		margin-top: 30px;
+	}
+	
+	.otHeader{
+		font-size: 17px;
+	}
+}
+
+
+@media(max-width:450px) {
+	
+	.otHeader{
+		font-size: 16px;
+		padding: 0 15px;
+	}
+	
+	.headSearch p{
+		font-size: 13px;
+	}
+	
+	.headSearch{
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	
+	.faqest h3{
+		font-size: 17px;
+	}
+	
+	.faqest h3::after{
+		width: 80px;
+	}
+	
+	.studyHeader{
+		font-size: 13px;
+	}
+	
+	.faqest p{
+		line-height: 2;
+	}
+}
